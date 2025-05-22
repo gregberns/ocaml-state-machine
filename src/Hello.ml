@@ -1,1 +1,2 @@
-let () = Js.log ("Hello " ^ World.name ^ "!!")
+let () = ();
+(* let () = Js.log ("Hello " ^ World.name ^ "!!") *)

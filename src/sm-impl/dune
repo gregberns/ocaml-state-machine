@@ -1,0 +1,7 @@
+(include_subdirs unqualified)
+
+(library
+ (name smImpl)
+ (modes melange)
+ (libraries relude domain stateMachine)
+ (melange.compile_flags :standard -open Relude.Globals))

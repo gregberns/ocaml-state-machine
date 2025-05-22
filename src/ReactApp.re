@@ -10,10 +10,10 @@ module App = {
        |> List.map(text =>
             <div key=text style>
               {React.string(text)}
-              <button
-                onClick={_ => text |> Speech.makeUtterance |> Speech.speak}>
-                {React.string("speak")}
-              </button>
+              // <button
+              //   onClick={_ => text |> Speech.makeUtterance |> Speech.speak}>
+              //   {React.string("speak")}
+              // </button>
             </div>
           )
        |> Array.of_list

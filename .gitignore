@@ -3,3 +3,7 @@ node_modules
 _build
 _opam
 dist/
+
+.serena
+
+.mcp.json
